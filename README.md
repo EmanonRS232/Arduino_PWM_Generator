@@ -1,5 +1,6 @@
 # Arduino_PWM_Generator
-Arduino PWM generator sketch, using register, tested on Arduino Nano
+Arduino simple PWM generator sketch, no lib using only register, tested on Arduino Nano
+
 Details :
   - Minimal recommended frequency 300Hz
   - Maximal recommended frequency 1.5Mhz
