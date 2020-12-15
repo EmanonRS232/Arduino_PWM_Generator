@@ -10,13 +10,3 @@ After 1.5Mhz (Arbitrary) the frequency and duty cycle is not accurate anymore
 
 Min working frequency (but unusable) ~244Hz
 Max working frequency (but unusable) ~5.3Mhz
-
-TODO :
- 
-    - Add code comments and print usefull info
-
-    - Add scope screenshots
-
-    - Define frequency & duty cycle range
-
-    - Add Atmel DataSheet

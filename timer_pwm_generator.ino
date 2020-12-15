@@ -1,5 +1,5 @@
 bool pwm_init_state = false;
-long frequency = 0.300E3; // Add desired frequency in kHz
+long frequency = 100E3; // Add desired frequency in kHz
 int duty_cycle = 50; // Add desired duty cycle in pourcentage
   
 void setup() {
