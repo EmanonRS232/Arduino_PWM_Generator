@@ -2,9 +2,9 @@
 Arduino PWM generator sketch, using register, tested on Arduino Nano
 Details :
   - Minimal recommended frequency 300Hz
-  - Max frequency recommended 1.5Mhz
-  - Min working frequency (but unusable) ~244Hz
-  - Max working frequency (but unusable) ~5.3Mhz
+  - Maximal recommended frequency 1.5Mhz
+  - Minimal working frequency (but unusable) ~244Hz
+  - Maximal working frequency (but unusable) ~5.3Mhz
   
 
 Will not work under 244Hz for my board, it's expected,
