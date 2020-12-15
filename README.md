@@ -7,8 +7,8 @@ Details :
   - Max working frequency (but unusable) ~5.3Mhz
   
 
-Will not work under 244Hz for my board, it's expected
-After 1.5Mhz (Arbitrary) the frequency and duty cycle is not accurate anymore
+Will not work under 244Hz for my board, it's expected,
+after 1.5Mhz (Arbitrary) the frequency and duty cycle is not accurate anymore
 
 
 ![DS1Z_QuickPrint_10kHZ.png](https://github.com/MoEmanon/Arduino_PWM_Generator/blob/master/screenshots/DS1Z_QuickPrint_10kHZ.png)
