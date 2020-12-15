@@ -1,6 +1,6 @@
 bool pwm_init_state = false;
-long frequency = 100E3; // Add desired frequency in kHz
-int duty_cycle = 50; // Add desired duty cycle in pourcentage
+long frequency = 10E3; // Add desired frequency in kHz, 10kHz here
+int duty_cycle = 50; // Add desired duty cycle in pourcentage, 50%
   
 void setup() {
   pinMode(9, OUTPUT); // Choose PWM pin, must be compatible
@@ -29,9 +29,16 @@ bool pwm_init(long frequency,int duty_cycle) {
 
 void printFD() {
   Serial.print("Frequency : ");
-  Serial.print(frequency / 1000);
-  Serial.print(" kHz");
-  Serial.print("\n");
+  if (frequency < 1000) {
+    Serial.print(frequency);
+    Serial.print(" Hz");
+    Serial.print("\n");
+  }
+  else {
+    Serial.print(frequency / 1000);
+    Serial.print(" kHz");
+    Serial.print("\n");
+  }
 
   Serial.print("Duty Cycle : ");
   Serial.print(duty_cycle);
