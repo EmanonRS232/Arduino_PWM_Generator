@@ -14,4 +14,4 @@ Min working frequency (but unusable) ~244Hz
 
 Max working frequency (but unusable) ~5.3Mhz
 
-![DS1Z_QuickPrint_10kHZ.png] (https://github.com/MoEmanon/Arduino_PWM_Generator/blob/master/screenshots/DS1Z_QuickPrint_10kHZ.png)
+![DS1Z_QuickPrint_10kHZ.png](https://github.com/MoEmanon/Arduino_PWM_Generator/blob/master/screenshots/DS1Z_QuickPrint_10kHZ.png)
