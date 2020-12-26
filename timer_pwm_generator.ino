@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   if(!pwm_init_state)
-    pwm_init(frequency, duty_cycle);
+    pwm_init_state = pwm_init(frequency, duty_cycle);
     
   printFD();
   delay(3000);
