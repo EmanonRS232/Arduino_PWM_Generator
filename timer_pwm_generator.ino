@@ -1,9 +1,10 @@
 bool pwm_init_state = false;
 long frequency = 10E3; // Add desired frequency in kHz, 10kHz here
-int duty_cycle = 50; // Add desired duty cycle in pourcentage, 50%
+int duty_cycle = 50; // Add desired duty cycle in percentage, 50%
+int pin_number = 9; // Change your pin number accordingly, check the README.md
   
 void setup() {
-  pinMode(9, OUTPUT); // Choose PWM pin, must be compatible
+  pinMode(pin_number, OUTPUT); // Choose PWM pin, must be compatible
   Serial.begin(115200); 
 }
 
