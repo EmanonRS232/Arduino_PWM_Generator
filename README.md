@@ -3,6 +3,7 @@ Arduino simple PWM generator sketch, no lib using only register, tested on Ardui
 
 
 How to use :
+
     - Edit line 2 and 3 of timer_pwm_generator.ino with the desired frequency and duty cycle
     - Edit line 4 ; pin number for your specific flavour of arduino ( nano, uno, mega etc ...)
     - Upload the compiled sketch using arduino ide
